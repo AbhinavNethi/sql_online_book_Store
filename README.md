@@ -13,10 +13,5 @@ This project simulates a small online book store using SQL. It involves creating
 - `orders.customer_id` → `customers.id`
 - `orders.book_id` → `books.id`
 
-##  How to Use
-
-1. Import the SQL script in a MySQL environment
-2. Run each query step-by-step to view results
-
 
 
