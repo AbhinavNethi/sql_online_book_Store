@@ -88,6 +88,8 @@ limit 5;
 #11 calculate total revenue generated from all orders
 select sum(total_amount) from orders;
 
+#advanced queries
+ 
 #12 retrieve total no of books sold for each genre
 select genre,sum(quantity) From books as b
 inner join orders as o
