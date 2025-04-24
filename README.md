@@ -1,1 +1,22 @@
-# sql_online_book_Store
+# SQL Online Book Store Project
+
+This project simulates a small online book store using SQL. It involves creating and managing a database with tables such as `books`, `customers`, and `orders`.
+
+## Database Structure
+
+### Tables:
+- **books**: Contains information about each book, including title, author, price, genre, stock, and publication year.
+- **customers**: Contains customer details such as name, email, country, and city.
+- **orders**: Represents purchase transactions, including quantities and total amounts.
+
+### Relationships:
+- `orders.customer_id` → `customers.id`
+- `orders.book_id` → `books.id`
+
+##  How to Use
+
+1. Import the SQL script in a MySQL environment
+2. Run each query step-by-step to view results
+
+
+
